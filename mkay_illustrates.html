@@ -1,0 +1,163 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MKAY ILLUSTRATES</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet"/>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Outfit', sans-serif;
+    }
+    body {
+      background: radial-gradient(circle at top left, #0d1b2a, #000814);
+      color: #fff;
+      overflow-x: hidden;
+    }
+    .container {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+    .glass {
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 20px;
+      padding: 2rem;
+      max-width: 900px;
+      width: 100%;
+      backdrop-filter: blur(18px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+    }
+    h1 {
+      text-align: center;
+      font-size: 3rem;
+      font-weight: 700;
+      background: linear-gradient(to right, #00aaff, #0077cc);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 1rem;
+    }
+    h2 {
+      text-align: center;
+      font-size: 1.2rem;
+      font-weight: 400;
+      color: #ccc;
+    }
+    p.about {
+      text-align: center;
+      margin-top: 1rem;
+      color: #ccc;
+      font-size: 1rem;
+    }
+    .examples {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin: 2rem 0;
+    }
+    .examples img {
+      width: 250px;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+      transition: transform 0.3s ease;
+    }
+    .examples img:hover {
+      transform: scale(1.05);
+    }
+    .price-list {
+      text-align: center;
+      margin: 2rem 0;
+    }
+    .price-list h3 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    .price-list ul {
+      list-style: none;
+      line-height: 2;
+      font-size: 1rem;
+    }
+    .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+      margin-top: 2rem;
+    }
+    .buttons a {
+      background: rgba(255, 255, 255, 0.07);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      padding: 0.8rem 1.5rem;
+      border-radius: 30px;
+      text-decoration: none;
+      color: #fff;
+      transition: all 0.3s ease;
+      backdrop-filter: blur(10px);
+    }
+    .buttons a:hover {
+      background: rgba(0, 153, 255, 0.4);
+    }
+    .footer {
+      text-align: center;
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="glass" data-aos="fade-up" data-aos-duration="1500">
+      <h1>MKAY ILLUSTRATES</h1>
+      <h2>Custom arts, portraits and NFTs</h2>
+      <p class="about" data-aos="fade-up" data-aos-delay="300">
+        Hi, I'm Mikel — a digital artist who creates custom artworks, stunning portraits, and unique NFTs designed to captivate. Whether you're looking for something personal or one-of-a-kind for your collection, I bring your vision to life.
+      </p>
+
+      <div class="examples">
+        <img src="https://i.postimg.cc/KYPV9HPS/AG-final.jpg" alt="Custom Portrait"/>
+        <img src="https://i.postimg.cc/N0cCrkWN/BLACK-AND-WHITE-FOX.jpg" alt="NFT"/>
+        <img src="https://i.postimg.cc/pT0s4by7/flamehead.jpg" alt="Artwork"/>
+      </div>
+
+      <div class="price-list" data-aos="fade-up" data-aos-delay="500">
+        <h3>Pricing</h3>
+        <ul>
+          <li>Portrait: Starting from $15</li>
+          <li>Half shot: Starting from $30</li>
+          <li>Full shot / Full body: Starting from $50</li>
+          <li>NFTs: 1 piece = Starting from $50</li>
+          <li>NFT collection of 3 = $140</li>
+          <li>NFT collection of 5 = $450</li>
+          <li>1/1 Unique piece (very detailed) = $500</li>
+          <li>Custom portraits: Starting from $20</li>
+        </ul>
+      </div>
+
+      <div class="buttons" data-aos="zoom-in" data-aos-delay="700">
+        <a href="mailto:oformikel191@gmail.com">Commission Me</a>
+        <a href="https://instagram.com/artbymkay__" target="_blank">More Examples</a>
+        <a href="https://rarible.com/mkayverse" target="_blank">My Rarible</a>
+        <a href="https://instagram.com/artbymkay__" target="_blank">Instagram</a>
+        <a href="https://twitter.com/artbymkay__" target="_blank">Twitter</a>
+      </div>
+    </div>
+    <div class="footer">© 2025 MKAY ILLUSTRATES</div>
+  </div>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+</body>
+</html>
